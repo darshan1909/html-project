@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1>CALCULATOR</h1>
+</head>
+
+<body>
+    <style>
+        .buton {
+            width: 80px;
+            height: 60px;
+            border: 2px solid;
+            border-radius: 5px;
+            font-size: 30px;
+        }
+
+        body {
+            margin-left: 25%;
+        }
+
+        .first {
+            height: 500px;
+            width: 900px;
+            background-color: turquoise;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .numbers {
+            display: grid;
+            grid-template-columns: 30px 30px 30px 30px 30px 30px;
+            grid-template-rows: 30px 30px 30px 30px 30px;
+            grid-column-gap: 80px;
+            grid-row-gap: 40px;
+        }
+
+        .values {
+
+            height: 150%;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .input {
+            width: 100%;
+            height: 20%;
+        }
+
+        input {
+            height: 40px;
+            width: 850px;
+            text-align: center;
+            margin: 20px;
+        }
+
+
+        .signs {
+            display: grid;
+            height: 80%;
+            width: 20%;
+            justify-content: center;
+
+        }
+    </style>
+    <div class="first">
+        <div class="input">
+            <input type="text">
+        </div>
+        <div style="display: flex;">
+            <div class="values">
+                <div class="numbers">
+                    <button class="buton" type="button" value="Rad">Rad</button>
+                    <button class="buton" type="button" value="Deg">Deg</button>
+                    <button class="buton" type="button" value="x!">x!</button>
+
+                    <button class="buton" type="button" value="("> (</button>
+                    <button class="buton" type="button" value=")"> ) </button>
+                    <button class="buton" type="button" value="%"> %</button>
+                    <button class="buton" type="button" value="Inv"> Inv </button>
+                    <button class="buton" type="button" value="sin"> sin </button>
+                    <button class="buton" type="button" value="In"> In </button>
+                    <button class="buton" type="button" value="7"> 7 </button>
+                    <button class="buton" type="button" value="8"> 8 </button>
+                    <button class="buton" type="button" value="9"> 9 </button>
+                    <button class="buton" type="button" value="pie"> pie</button>
+                    <button class="buton" type="button" value="cos"> cos </button>
+                    <button class="buton" type="button" value="log"> log </button>
+                    <button class="buton" type="button" value="4">4</button>
+                    <button class="buton" type="button" value=" 5"> 5 </button>
+                    <button class="buton" type="button" value=" 6"> 6 </button>
+                    <button class="buton" type="button" value=" e"> e </button>
+                    <button class="buton" type="button" value=" tan"> tan </button>
+                    <button class="buton" type="button" value=" √ "> sqrt</button>
+                    <button class="buton" type="button" value=" 1"> 1 </button>
+                    <button class="buton" type="button" value=" 2"> 2 </button>
+                    <button class="buton" type="button" value=" 3"> 3 </button>
+                    <button class="buton" type="button" value=" Ans"> Ans </button>
+                    <button class="buton" type="button" value=" EXP"> EXP </button>
+                    <button class="buton" type="button" value=" Xy"> Xy </button>
+                    <button class="buton" type="button" value=" 0"> 0 </button>
+                    <button class="buton" type="button" value=" ."> . </button>
+                    <button class="buton" type="button" value=" ="> = </button>
+
+                </div>
+
+            </div>
+            <div class="signs">
+                <button class="buton" type="button" value=" CE"> CE </button><br>
+                <button class="buton" type="button" value="div "> div</button><br>
+                <button class="buton" type="button" value=" x"> x </button><br>
+                <button class="buton" type="button" value=" -"> - </button><br>
+                <button class="buton" type="button" value=" +"> + </button>
+            </div>
+        </div>
+
+
+    </div>
+    
+</body>

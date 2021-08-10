@@ -1,0 +1,147 @@
+<!doctype>
+<html>
+<head>
+    <body>
+   <div class="head">
+    <h3> freecode camp for survey form</h3>
+
+
+    <h5> Thank you for taking the time to help us improve the platform</h5>
+    </div>
+</head>
+
+<style> 
+.form{
+    height: 150px;
+    width: 500px;
+}
+
+.form1{
+    background-color: green;
+    color: white;
+}
+
+.form-group{
+    margin:10px;
+    
+}
+.head{
+    margin-left: 40%;
+    margin-top: 10%;
+    color: white;
+}
+.foot{
+    margin-left: 20%;
+    height: 1050px;
+    width: 800px;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    background-size: cover;
+    background-image: url("paper.gif");
+    /* background-image: linear-gradient(115deg , rgba(58,58,158,0.8),rgba(136,136,206,0.7)),url("survey-form-background.jpeg"); */
+    /* background-color: blue; */
+    
+    background-image: url("survey-form-background.jpeg");
+
+    /* background-image: url("Desktop/survey-form-background\ 2.jpeg"); */
+    
+}
+
+
+
+</style>
+<form id="survey-form">
+    <div class="foot">
+
+<div class="form-group">
+    <label id="name-label" > Name</label>
+    <br>
+    <input type="text" name="name" id="name"  class="form-control" placeholder="Enter your name " required/>
+    </div>
+
+<br>
+
+    <div class="form-group">
+<label id="Email-label">Email</label>
+<br>
+<input type="Email" name=Email id="Email" class="form-control" placeholder="Enter your email" required/>
+    </div>
+
+<br>
+<div class="form-group">
+<label id="number-label" for="number" > Age (optional)</label>  
+<br>
+<input type="number" name=Age id="Age" class="form-control" placeholder="Age" required/>
+</div>
+
+
+
+<div class="form-group">
+    <p>Which option best describes your current role?</p>
+    <select id=" dropdown" name="role" class="form-control"required>
+<option> Student</option>
+<option> Full Time Job</option>
+<option> Full Time Learner</option>
+<option> Prefer Not To Say</option>
+<option> Other</option>
+</select>
+</div>
+
+<div class="form-group">
+<p>Would you recommend freeCodeCamp to a friend?</p>
+<input type="radio" name="input" >Definitely
+<br>
+<input type="radio" name="input" >Maybe
+<br>
+<input type="radio" name="input" >Not survey
+</div>
+
+<div class="form-group">
+<p>What is your favorite feature of freeCodeCamp?</p>
+<input type="checkbox" name="output">Front-end Projects
+<br>
+<input type="checkbox" name="output">Back-end Projects
+<br>
+<input type="checkbox" name="output">Data Visualization
+<br>
+<input type="checkbox" name="output">Challenges
+<br>
+<input type="checkbox" name="output">Open Source Community
+<br>
+<input type="checkbox" name="output">Gitter help rooms
+<br>
+<input type="checkbox" name="output">Videos
+<br>
+<input type="checkbox" name="output">City Meetups
+<br>
+<input type="checkbox" name="output">Wiki
+<br>
+<input type="checkbox" name="output">Forum
+<br>
+<input type="checkbox" name="output">Additional Courses
+</div>
+
+
+<div class="form-group">
+    
+        
+    <p>Any comments or suggestions?</p>
+<input type="text" name="comments or suggestions?" class="form"  placeholder="Enter your comments here....."required>
+
+</div>
+<br>
+
+
+<div class="form-group">
+    <input type="submit" value="submit" class="form1">
+
+
+</div>
+</div>
+</form>
+</body>
+</html>
