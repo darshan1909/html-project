@@ -1,272 +1,119 @@
-<!-- <!doctype html>
-<html lang="en">
-    <head>
-
-        <tittle class="head">Chess Board</tittle>
-        </head>
-        <body>
-            
-    
-            <style> 
-.head{color: thistle;
-font-size: 50px;
-margin-left:40%;
-}
-               .box1{
-                    width: 80px;
-                    height: 80px;
-                    background-color: black;
-                    }
-                    
-                body{
-                    background-color: rgb(126, 128, 0);
-                    
-                }
-                
-                .box2{
-                    background-color:white;
-                    width:80px;
-                    height:80px;}
-                                    
-                    #container{
-                        display:flex;
-                        justify-content: center;}
-  
-.box3:hover{
-    transform: scale(1.1);
-    /* height: 100px;
-    width:100px; */
-    
-}
-                
-
-</style>
-<div id="container">
-<div class="box1">
-<div class="box1 box3"></div>
-<div class="box2 box3"></div>
-<div class="box1 box3"></div>
-<div class="box2 box3"></div>
-<div class="box1 box3"></div>
-<div class="box2 box3"></div>
-<div class="box1 box3"></div>
-<div class="box2 box3"></div>
-</div>
-
-
-<div class="box2">
-    <div class="box2 box3"></div>
-    <div class="box1 box3"></div>
-    <div class="box2 box3"></div>
-    <div class="box1 box3"></div>
-    <div class="box2 box3"></div>
-    <div class="box1 box3"></div>
-    <div class="box2 box3"></div>
-    <div class="box1 box3"></div>
-    </div>
-    
-    <div class="box1">
-        <div class="box1 box3"></div>
-        <div class="box2 box3"></div>
-        <div class="box1 box3"></div>
-        <div class="box2 box3"></div>
-        <div class="box1 box3"></div>
-        <div class="box2 box3"></div>
-        <div class="box1 box3"></div>
-        <div class="box2 box3"></div>
-        </div>
-        
-        <div class="box2">
-            <div class="box2 box3"></div>
-            <div class="box1 box3"></div>
-            <div class="box2 box3"></div>
-            <div class="box1 box3 "></div>
-            <div class="box2 box3"></div>
-            <div class="box1 box3"></div>
-            <div class="box2 box3"></div>
-            <div class="box1 box3"></div>
-            </div>
-            
-
-            <div class="box1">
-                <div class="box1 box3"></div>
-                <div class="box2 box3"></div>
-                <div class="box1 box3"></div>
-                <div class="box2 box3"></div>
-                <div class="box1 box3"></div>
-                <div class="box2 box3"></div>
-                <div class="box1 box3"></div>
-                <div class="box2 box3"></div>
-                </div>
-                      
-
-
-                <div class="box2">
-                    <div class="box2 box3"></div>
-                    <div class="box1  box3"></div>
-                    <div class="box2 box3"></div>
-                    <div class="box1 box3 "></div>
-                    <div class="box2 box3"></div>
-                    <div class="box1 box3"></div>
-                    <div class="box2 box3"></div>
-                    <div class="box1 box3"></div>
-                    </div>
-                    
-
-                    <div class="box1">
-                        <div class="box1 box3"></div>
-                        <div class="box2 box3 "></div>
-                        <div class="box1 box3"></div>
-                        <div class="box2 box3"></div>
-                        <div class="box1 box3"></div>
-                        <div class="box2 box3"></div>
-                        <div class="box1 box3"></div>
-                        <div class="box2 box3"></div>
-                        </div>
-                              
-
-                        
-                        <div class="box2">
-                            <div class="box2 box3"></div>
-                            <div class="box1 box3"></div>
-                            <div class="box2 box3"></div>
-                            <div class="box1 box3"></div>
-                            <div class="box2 box3"></div>
-                            <div class="box1 box3"></div>
-                            <div class="box2 box3"></div>
-                            <div class="box1 box3"></div>
-                            </div>
-                        </div>
-                        
-
-</body>
-<html>
- -->
-
 
  <body>
      <style>
-.first{
-    height: 1500px;
-    width: 100%;
-    background-color: black;
+.chessboard {
+    border: 1px solid #b58863;;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
 }
 
-.second{
-    margin: 0 auto;
-    height:1000px;
-    width:80%;
-    background-color: white;
-    
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50px;
 }
-.box1{
-    height:50px;
-    width:50px;
-    background-color: red;
 
+.square {
+  width: 50px;
+  height: 50px;
+}
+
+.light {
+  background-color: white;
+}
+
+.dark {
+  background-color: black;
 }
      </style>
+         <div   ><h1>Chessboard</h1></div>
+<div class="chessboard"> 
 
- <div class="first">
-     <div class="second">
-       <div class="third">
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-       </div>
-       <div class="fourth">
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-       </div>
-       <div class="fifth">
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box1"></div>
-        <div class="box2"></div>
-       </div>
-        <div class="sixth">
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-        </div>
-        <div class="seventh">
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-           </div>
-           <div class="eighth">
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-           </div>
-           <div class="ninth">
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box1"></div>
-            <div class="box2"></div>
-           </div>
-            <div class="tenth">
-                <div class="box2"></div>
-                <div class="box1"></div>
-                <div class="box2"></div>
-                <div class="box1"></div>
-                <div class="box2"></div>
-                <div class="box1"></div>
-                <div class="box2"></div>
-                <div class="box1"></div>
-                <div class="box2"></div>
-                <div class="box1"></div>
-            </div>
-     </div>
- </div>
+  <div class="row">
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+  </div>
+  <div class="row">
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+  </div>
+  <div class="row">
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+  </div>
+  <div class="row">
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+  </div>
+  <div class="row">
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+  </div>
+  <div class="row">
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+  </div>
+  <div class="row">
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+  </div>
+  <div class="row">
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+  </div>
+</div>
+
 
  </body>
 
