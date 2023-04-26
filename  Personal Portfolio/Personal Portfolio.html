@@ -15,13 +15,13 @@
 }
 
 .navbar{
-    height:3%;
+    height:1%;
     width:100%;
+    text-align: center;
     background-color:rgb(0, 255, 21);
     
 
 }
-
 .second{
     height:25%;
     width:100%;
@@ -31,7 +31,7 @@
 
 
 .third{
-    height:30%;
+    height:33%;
     width:100%;
     background-color: rgb(129, 125, 129);
     display:flex;
@@ -57,6 +57,8 @@
 .C1 {
   height:40%;
   width:30%;
+  color: black;
+  text-decoration: none;
   /* background-color: mediumseagreen; */
   margin-top:2.5%;
   /* margin-bottom:2%; */
@@ -64,6 +66,7 @@
 }
 #navbar {
   margin-left: 75%;
+  text-align: center;
   
 }
 
@@ -134,7 +137,6 @@ display: inline-block;
     /* height:70%; */
     height:auto;
     width:70%;
-   
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -166,6 +168,7 @@ p{
 
 
 <body>
+    
     <div class="main">
     <div class="navbar">
         <nav id="navbar">
@@ -176,7 +179,6 @@ p{
             <a href="#contact" class="nav-link">Contact</a>
             </nav>
     </div>
-
     <div class="second">
         <section id="welcome-section" class="main-section">
             <h1>Hey I am Darshan</h1>
@@ -188,7 +190,7 @@ p{
             <a href="#project" class="C1" > <img src="tribute.jpg"  alt="tribute page preview">Tribute Page</a>
         </div>
         <div class="C1">
-        <a href="#project" class="C1"><img src="random-quote-machine.png" alt="random-quote-machine preview">random Quote Machine</a>
+        <a href="#project" class="C1"><img src="random-quote-machine.png" alt="random-quote-machine preview">Random Quote Machine</a>
 
         </div>
         <div class="C1">
@@ -201,32 +203,37 @@ p{
 
         </div>
         <div class="C1">
-            <a href="#project" class="C1"><img src="wiki.png"  alt="wikipedia viewer preview"> wikipedia Viewer</a>
+            <a href="#project" class="C1"><img src="wiki.png"  alt="wikipedia viewer preview"> Wikipedia Viewer</a>
 
         </div>
         <div class="C1">
             <a href="#project" class="C1"><img src="tic-tac-toe.png" alt="tic-tac-toe-game preview">Tic Tac Toe Game</a>
 
-            <a href="#project" target="_blank" id="show-all">show all</a>
         
         </div>
 
     </div>
     <div class="fourth">
         <section id="contact" class="main-section">
-            <div class="work"><span><h1>Let's work together...</h1>
-                <p>How do you take your coffee?</p></div></span>
+            <div class="work" style="text-align: center;"><span style="text-align: center;"><h1 style="text-align: center;">Let's work together...</h1>
+                <p style="text-align: center;">How do you take your coffee?</p></div></span>
             <div class="con">
             <div class="contact" id="contact-content">
-                <div class="field" id="fcbk"> <img class="field1" src ="iconfinder_386622_facebook_icon_512px.png"><a href="#contact" target="_blank"><p>Facebook</p></a></div>
-                <div  class="field"id="git hub"><img class="field1" src="github-logo.png"><a href="#contact"  target="-blank"><p>Git Hub</p></a></div>
-                 <div class="field" id="twitter"><img class="field1" src="twitter-2.png"><a href="#contact" target="-blank"><p>Twitter</p></a></div>   
-                 <div class="field" id="send a mail"> <img class="field1" src="iconfinder_115714_email_send_mail_icon_24px.png"> <a href="#contact"  target="-blank"><p> Send A Mail</p></a> </div>
-                 <div class="field" id="call me"><img class="field1" src="call me" ><a href="#contact"  target="-blank"><p>Call Me</a></div>
+
                  
                  </div>
+ 
                  </div>
+                <div style="display: flex;flex-direction: row;justify-content: space-around;">
+                                <div class="field" id="fcbk"> <img class="field1" src ="iconfinder_386622_facebook_icon_512px.png"><a href="#contact" target="_blank"><p>Facebook</p></a></div>
+                               <div  class="field"id="git hub"><img class="field1" src="github-logo.png"><a href="#contact"  target="-blank"><p>GitHub</p></a></div>
 
+                               <div class="field" id="twitter"><img class="field1" src="twitter-2.png"><a href="#contact" target="-blank"><p>Twitter</p></a></div>   
+
+                 <div class="field" id="send a mail"> <img class="field1" src="iconfinder_115714_email_send_mail_icon_24px.png"> <a href="#contact"  target="-blank"><p> Mail</p></a> </div>
+                 <div class="field" id="call me"><img class="field1" src="call me" ><a href="#contact"  target="-blank"><p>Call Me</a></div>
+
+                 </div>
                 
                  </section>
     </div>
